@@ -9,6 +9,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: static;
 }
 
 .logo_place_header {
@@ -25,11 +26,11 @@
   display: flex;
   padding: 0%;
   margin-left: 64px;
-  align-items: center;
   z-index: 2;
+  align-items: center;
   font-size: 102px;
   font-weight: bold;
-  line-height: 96px.
+  line-height: 96px;
 }
 
 .header__subtitle {
@@ -40,7 +41,7 @@
   z-index: 1;
   font-size: 18px;
   font-weight: normal;
-  line-height: 25px.
+  line-height: 25px;
 }
 .header__link{
   color: #2f80ed;
@@ -68,6 +69,40 @@
   z-index: -2;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  min-height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  vertical-align: top;
+  padding-top: 30px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__brief {
+  line-height: 12px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
