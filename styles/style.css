@@ -2,6 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  position: static;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -97,7 +98,6 @@
 .two-columns__main-text {
   width: 80%; 
   min-width: 784px;
-  
 } 
 
 .two-columns__paragraph {
@@ -166,7 +166,7 @@ margin-top: 60px;
 
 .table__text {
   padding-top: 20px;
-  line-height: 1.2x;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
@@ -336,7 +336,7 @@ margin-top: 60px;
 
 .footer__column-link {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-bottom: 16px;
   color: #f2f2f2;
   line-height: 30px;
@@ -353,9 +353,4 @@ margin-top: 60px;
   height: 16px;
   width: 16px;
   margin-right: 10px;
-}
-
-.footer__column-link {
-  display: flex;
-  flex-direction: row;
 }
