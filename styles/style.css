@@ -261,7 +261,6 @@ margin-top: 60px;
 
 .table_theme_dark {
   margin: 0 auto 90px;
-  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -291,7 +290,7 @@ margin-top: 60px;
   position: absolute;
   right: -210px;
   top: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .footer {
