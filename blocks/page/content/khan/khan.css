@@ -1,0 +1,42 @@
+.khan {
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.khan__contanier {
+    width: 80%;
+}
+
+.khan__author {
+
+}
+
+.khan__title {
+
+}
+
+.khan__quote {
+
+}
+
+.khan__quote-author {
+
+}
+
+.khan__quote-author-subline {
+
+}
+
+.khan__book-contanier {
+
+}
+
+.khan__book-image {
+
+}
+
+.khan__buy-link {
+
+}
