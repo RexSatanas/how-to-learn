@@ -3,11 +3,12 @@
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
+    width: 80%;
   }
 
 .section-title {
     width: 60%;
-    margin-top: 0;
+    margin-top: 100px;
     margin-bottom: 0;
     text-align: center;
     line-height: 1.15;
@@ -22,5 +23,52 @@
     margin-bottom: 0;
     line-height: 34px;
     font-size: 24px;
+    font-weight: normal;
+  }
+
+  .cards {
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+    
+  .cards__item { 
+    width: 240px;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .cards__item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  
+  .cards__image {
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 100px;
+  }
+  
+  .cards__title {
+    margin-top: 43px;
+    margin-bottom: 16px;
+    padding-top: 0;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+
+  .cards__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 18px;
     font-weight: normal;
   }
