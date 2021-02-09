@@ -28,6 +28,7 @@
 .khan__quote {
     width: 790px;
     margin-top: 50px;
+    margin-bottom: 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
@@ -36,6 +37,7 @@
 
 .khan__quote-author {
     margin-top: 36px;
+    margin-bottom: 0;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -44,6 +46,7 @@
 
 .khan__quote-author-subline {
     margin-top: 10px;
+    margin-bottom: 0;
     line-height: 1.15;
     font-size: 24px;
     font-weight: normal;
@@ -58,7 +61,8 @@
 .khan__book-image {
     height: 620px;
     width: 608px;
-    margin-right: 10px;
+    margin-right: 48px;
+    object-position: top;
     object-fit: cover;
 }
 
@@ -68,6 +72,7 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+    align-self: start;
 }
 
 
