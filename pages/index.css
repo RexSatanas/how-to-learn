@@ -1,4 +1,4 @@
-@import url(../vendors/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/header/header.css);
 @import url(../blocks/page/header/__title/header__title.css);
@@ -99,3 +99,12 @@
 
 
 @import url(../blocks/page/footer/footer.css);
+@import url(../blocks/page/footer/__columns/footer__columns.css);
+@import url(../blocks/page/footer/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/page/footer/__author/footer__author.css);
+@import url(../blocks/page/footer/__column_content_info/);
+@import url(../blocks/page/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/page/footer/__column-links/footer__column-links.css);
+@import url(../blocks/page/footer/__column-link/footer__column-link.css);
+@import url(../blocks/page/footer/__column_content_social/footer__column_content_social.css);
+@import url(../blocks/page/footer/__social-icon/footer__social-icon.css);
